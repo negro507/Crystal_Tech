@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* VARIABLES DE COLORES */
+
+:root {
+    --Color-1: #75d65d;
+    --Color-2: #00bd7c;
+    --Color-3: white;
+    --Color-4: black;
+}
+
+/* Tipo de fuente que usara el sitio web */
+body {
+    font-family: "open sans";
+}
+
+/* Css que Afecta todos los titulos de las secciones de la Pagina */
+.Titulo {
+    color: var(--Color-4);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+/* HEADER */
+
+.Header-Principal {
+    width: 100%;
+    height: 55rem;
+    background: var(--Color-1);
+    background: -webkit-linear-gradient(to right, rgba(117, 214, 93, 0.633), rgba(0, 198, 125, 0.522)), url(../img/Tienda.jpeg);
+    background: linear-gradient(to right, rgba(117, 214, 93, 0.615), rgba(0, 198, 125, 0.506)), url(../img/Tienda.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/* PRIMER BARRA DE NAVEGACION */
+
+.Nav-1 {
+    text-align: center;
+    padding: 0 0 0 0;
+    width: 120%;
+    height: 4.5rem;
+    background-color: white;
+}
+
+/* ICONOS REDES SOCIALES */
+
+/* Logo de la Pagina Web */
+.logo {
+    width: 14rem;
+    height: 6rem;
+    margin: -0.5rem 0 0 1rem;
+    float: left;
+}
+
+/* Css que Altera Todos los Iconos de la Pagina */
+.icono {
+    margin: 1rem;
+}
+
+/* Css que Altera solo el icono de Whatsapp */
+#Whatsapp {
+    margin: 1rem 2rem 0 0;
+}
+
+/* Css que Altera solo el icono de Facebook*/
+#Facebook {
+    margin: 1rem 2rem 0 0;
+}
+
+.usuario {
+    margin: 0.5rem 0 0 10rem;
+}
+
+#crud {
+    margin: 1rem 0 0 -30rem;
+}
+
+
+/* SEGUNDA BARRA DE NAVEGACION */   
+
+.Nav-2 {
+    text-align: center;
+    padding: 0 0 0 0;
+    height: 3rem;
+    background-color: white;
+}
+
+.Nav-2>a {
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 0.5rem 30px 0 1rem;
+}
+
+.Nav-2>a:hover {
+    text-decoration: solid;
+}
+
+.Textos-Header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 17rem 0 0 0;
+}
+
+.Textos-Header h1,h2 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+/* AQUI TERMINA EL HEADER */
+
+/* CONTENIDO DE LA PAGINA (MAIN) */
+
+/* Carrusel */
+.Seccion-Carrusel {
+    margin-top: 1rem;
+    background: #F2F2F2;
+}
+
+.carousel-inner {
+    height: 35rem;
+}
+
+/* AQUI EMPIEZA LA SECCION DE CATEGORIAS */
+
+#Categorias {
+    height: 45rem;
+}
+
+/* Este css altera las formas circulares en las que van las imagenes */
+.circle-1 {
+    width: 11.5rem;
+    height: 11.5rem;
+    /* En este background: url se inserta la imagen que deseas que aparezca impresa en los circulos */
+    background: url(../Img/Despensa.webp);
+    border-radius: 50%;
+    margin: 0 0 0 0;
+    border: 0.3rem solid black;
+}
+
+.circle-2 {
+    width: 11.5rem;
+    height: 11.5rem;
+    background: url(../Img/Limpieza.webp);
+    border-radius: 50%;
+    margin: 0 0 0 0;
+    border: 0.3rem solid black;
+}
+
+.circle-3 {
+    width: 11.5rem;
+    height: 11.5rem;
+    background: url(../Img/Frutas\ y\ Verduras.webp);
+    border-radius: 50%;
+    margin: 0 0 0 0;
+    border: 0.3rem solid black;
+}
+
+.circle-5 {
+    width: 11.5rem;
+    height: 11.5rem;
+    background: url(../Img/Snacks.webp);
+    border-radius: 50%;
+    margin: 8rem 0 0 0;
+    border: 0.3rem solid black;
+}
+
+.circle-6 {
+    width: 11.5rem;
+    height: 11.5rem;
+    background: url(../Img/Bebidas.webp);
+    border-radius: 50%;
+    margin: 8rem 0 0 0;
+    border: 0.3rem solid black;
+}
+
+.circle-7 {
+    width: 11.5rem;
+    height: 11.5rem;
+    background: url(../Img/Licores.webp);
+    border-radius: 50%;
+    margin: 8rem 0 0 0;
+    border: 0.3rem solid black;
+}
+
+
+/* Aqui terminan los circulos de las categorias */
+
+/* AQUI TERMINA LA SECCION DE CATEGORIAS */
+
+/* AQUI EMPIEZA LA SECCION DE FACTURA DIGITAL */
+
+#Factura {
+    background: #F2F2F2;
+    padding-bottom: 2rem;
+}
+
+.Texto-factura {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contenido-Factura {
+    margin: 0 30rem 0 30rem;
+    font-size: large;
+    text-align: center;
+}
+
+/* AQUI TERMINA LA SECCION DE FACTURA DIGITAL */
+
+/* AQUI EMPIEZA EL FOOTER */
+
+Footer {
+    background: rgba(42, 185, 106, 84);
+    padding: 4rem 0 2rem 0;
+    margin: auto;
+    overflow: hidden;
+    border-top: 0.2rem solid black ;
+}
+
+.Espaciado-footer {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+    border-bottom: 0.1rem solid black;
+}
+
+.Separador {
+    border: 0.1rem black solid;
+}
+
+.Contenido-footer {
+    text-align: center;
+}
+
+.Contenido-footer h4 {
+    color: black;
+    border-bottom: 0.3rem solid black;
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.Contenido-footer p {
+    color: black;
+}
+
+.Titulo-final {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1.4rem 0 0 0;
+    color: black;
+}
+
+/* AQUI TERMINA EL FOOTER */
+

@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tipo de fuente que usara el sitio web */
+body {
+    font-family: 'open sans';
+}
+
+/* Css que Afecta todos los titulos de las secciones de la Pagina */
+.Titulo {
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+/* HEADER */
+
+
+/* PRIMER BARRA DE NAVEGACION */
+
+
+.Nav-1{
+    text-align: center;
+    padding: 0 0 0 0;
+    width: 120%;
+    height: 4.5rem;
+    background-color: white;
+}
+
+/* ICONOS REDES SOCIALES */
+
+
+/* Logo de la Pagina Web */
+.logo {  
+    width: 14rem;
+    height: 6rem;
+    margin: -0.5rem 0 0 1rem;
+    float: left;
+}
+
+/* Css que Altera Todos los Iconos de la Pagina */
+.icono {
+    margin: 1rem;
+}
+
+.usuario {
+    margin-top: 0.5rem;
+}
+
+/* Menu Desplegable del Icono de Usuario */
+.desplegable {
+    margin-right: 0.5rem;
+}
+
+/* FORMULARIOS ICONO USUARIO */
+
+
+/* SEGUNDA BARRA DE NAVEGACION */
+
+
+.Nav-2 {
+    text-align: center;
+    padding: 0 0 0 0;
+    height: 3rem;
+    background-color: white;
+}
+
+.Nav-2 > a {
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 0.5rem 30px 0 1rem;
+}
+
+.Nav-2 > a:hover {
+    text-decoration: solid;
+}
+
+/* AQUI EMPIEZA EL CONTENIDO DE LA PAGINA */
+
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid #FFFFFF; /*blanco*/
+}
+
+.producto-container{
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgb(120, 192, 102); /*verde claro*/
+    background-color: #ffffff; /*blanco*/
+}
+
+.producto-container:hover{
+    box-shadow: 0 20px 20px 0 rgb(120, 223, 162);
+}
+
+.producto-container img{
+    width:190px;
+    height: auto;
+}
+
+.producto-container h3{
+    margin-bottom: 10px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button-add{ 
+font-size: 16px;
+text-align: center;
+border-radius: 8px;
+padding: 10px 20px;   /*logo DE LA PAGINA*/
+width: 100px;
+height: 100px;
+border: black solid 1px ;
+}
+
+
+#imagen1{ /*IMAGEN DEL CARROUSEL*/
+    width: 500%;
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+#imagen2{ /*IMAGEN DEL CARROUSEL*/
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+#imagen3{  /*IMAGEN DEL CARROUSEL*/
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+
+.producto-container{ /*CONTENEDOR DEL PRODUCTO*/
+    margin: 10px;
+    padding: 10px 10px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(46, 49, 47, 0.986); 
+    border-radius: 15px 15px 15px 15px;
+    background-color: #ffffff; 
+}
+
+#agregar{ /*AGREGAR AL CARRITO DE COMPRAS*/
+    width: 30px;
+    height: 30px;
+    color: aquamarine;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.producto-container:hover{ /*COLOR DEL CONTENEDOR*/
+    box-shadow: 0 20px 20px 0 rgb(116, 139, 124);
+}
+
+
+.producto-container img{  /*CONTENEDOR DE LA IMAGEN*/
+    width:195px;
+    height: 100;
+}
+
+
+.producto-container h6{ /*DISEÑO DE LA NOMBRE DEL PRODUCTO*/
+    margin-bottom: 10px;
+    margin-left: 15px;
+    text-align:justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#mas{  /*DISEÑO DE VER MAS CATEGORIA DE ALIMENTOS*/
+    position:absolute;
+    top: 630px;
+    right: 120px;
+}
+
+#mas2{ /*DISEÑO DE VER MAS CATEGORIA DE ASEO Y HOGAR*/
+    position:absolute;
+    top: 970px;
+    right: 120px;
+}
+
+#mas3{ /*DISEÑO  DE VER MAS CATEGORIA DE BEBIDAS*/
+    position:absolute;
+    top: 1310px;
+    right: 120px;
+}
+
+#letra1{ /*DISEÑO DEL TITULO DE CATEGORIA DE ALIMENTOS*/
+    position:relative;
+    right: 600px;
+}
+
+#letra2{ /*DISEÑO DEL TITULO DE CATEGORIA DE ASEO Y HOGAR*/
+    position: relative;
+    left: 55px;
+}
+
+#letra3{ /*DISEÑO DEL TITULO DE CATEGORIA DE BEBIDAS*/
+    position: relative;
+    top: 5px;
+    left: 55px;
+}
+
+
+/* AQUI EMPIEZA EL FOOTER */
+
+
+Footer{
+    background: rgba(42, 185, 106, 84);
+    padding: 4rem 0 2rem 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Espaciado-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 3rem;
+    border-bottom: 0.1rem solid #ccc;
+}
+
+.Contenido-footer{
+    text-align: center;
+}
+
+.Contenido-footer h4{
+    color: #fff;
+    border-bottom: 0.3rem solid black;
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.Contenido-footer p{
+    color: white;
+}
+
+.Titulo-final{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1.4rem 0 0 0;
+    color: white;
+}
+
+/* AQUI TERMINA EL FOOTER */
